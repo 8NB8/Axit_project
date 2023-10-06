@@ -53,7 +53,7 @@ ul li a:active{
 #hero{
     background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)),url(/Users/nebojsabojanovic/Documents/GitHub/Axit_project/sources/img/u2_state0.jpeg) no-repeat center;
     background-size: cover;
-    padding: 110px 0 135px;
+    padding: 110px 0 100px;
 }
 #hero h1{
     text-align: left;
@@ -157,4 +157,35 @@ span{
 .login a:hover{
     background-color: #000;
     transition: 500ms;
+}
+.social_cols{
+    display: flex;
+    justify-content: space-between;
+}
+#social_media{
+    background-color: #ffffff;
+}
+.text{
+    font-family: 'Ralawey', sans-serif;
+    width: 40%;
+    padding-top: 20px;
+}
+.text h2{
+    text-transform: capitalize;
+    font-size: 20px;
+}
+.text p{
+    color: #8e8f92;
+    padding: 5px 0px 15px 0px;
+}
+.icons{
+    align-self: center;
+}
+.icons a img{
+    filter: contrast(5%) opacity(40%);
+    height: 40px;
+    padding: 0px 15px;
+}
+.icons a img:hover{
+    filter: invert(65%) sepia(90%) saturate(805%) hue-rotate(323deg) brightness(105%) contrast(103%);
 }
