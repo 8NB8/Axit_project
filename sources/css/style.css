@@ -572,3 +572,33 @@ ul li a:active{
     text-align: center;
     padding: 20px 0px 90px 0px;
 }
+#footer{
+    background-color: #000;
+    /* height: 90px; */
+}
+footer{
+    text-align: center;
+    color: #fff;
+}
+.footer a{
+    color: #fff;
+    filter: brightness(0) invert(1);
+    padding: 10px 10px;
+    text-align: center;
+}
+.footer a:hover{
+    filter: invert(65%) sepia(90%) saturate(805%) hue-rotate(323deg) brightness(105%) contrast(103%);
+
+}
+.footer img{
+    color: #fff;
+    height: 20px;
+    padding: 20px 0px;
+}
+.footer p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    color: #8e8f92;    
+    font-weight: 300;
+    padding-bottom: 20px;
+}
