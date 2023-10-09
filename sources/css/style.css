@@ -8,7 +8,8 @@ body{
 header{
     background: #000;
     width: 100%;
-    padding: 20px 0;
+    padding: 15px 0;
+    position: fixed;
 }
 
 
@@ -46,12 +47,14 @@ ul li a:active{
     grid-template-columns: 20% 80%;
     grid-gap: 40%;
     align-items: center;
+
 }
 .nav img{
     width: 30%;  
 }
 #hero{
-    background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)),url(/Users/nebojsabojanovic/Documents/GitHub/Axit_project/sources/img/u2_state0.jpeg) no-repeat center;
+
+    background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)),url(../img/u2_state0.jpeg) no-repeat center;
     background-size: cover;
     padding: 110px 0 100px;
 }
@@ -76,7 +79,7 @@ ul li a:active{
     padding: 10px 0px ;
 
 }
-.hero-col1 a{
+.hero_col_left a{
     color: #ffffff;
     text-decoration: none;
     width: 135px;
@@ -92,7 +95,7 @@ ul li a:active{
     border: solid 1.5px white;
     width: 70px;
 }
-.hero-col1{
+.hero_col_left{
     display: grid;
     flex: 1;
     align-items: center;
@@ -100,7 +103,7 @@ ul li a:active{
     flex-basis: 50%;
     margin-top: 20px;
 }
-.hero-col2{
+.hero_col_right{
     display: grid;
     flex: 1;
     align-items: center;
@@ -123,7 +126,7 @@ ul li a:active{
     border-top-right-radius: 3px;
     border-top-left-radius: 3px;
 }
-span{
+.login span{
     color: #ff8b38;
 }
 .login{
@@ -188,4 +191,58 @@ span{
 }
 .icons a img:hover{
     filter: invert(65%) sepia(90%) saturate(805%) hue-rotate(323deg) brightness(105%) contrast(103%);
+}
+
+.about_cols{
+    display: flex;
+    justify-content: space-between;
+    padding: 110px 0px;
+    gap: 80px;
+}
+.about_buttons a{
+    width: 110px;
+    height: 110px;
+    display: block;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    border-bottom: solid 1px white;
+    line-height: 110px;
+}
+.about_buttons a:hover{
+    background-color: #ff8b38;
+    transition: 400ms;
+}
+.about_buttons a:active{
+    background-color: #ff8b38;
+}
+.about_buttons{
+    padding-right: 40px;
+}
+.about_text h2{
+    font-family: 'Ralawey', sans-serif;
+    font-size: 21px;
+    padding-bottom: 50px;
+}
+.about_text p{
+    font-family: 'Ralawey', sans-serif;
+    font-size: 15px;
+    color: #8e8f92;
+    padding-bottom: 70px;
+
+}
+.about_text a{
+    color: #ffffff;
+    background-color: #ff8b38;
+    text-decoration: none;
+    box-sizing: border-box;   
+    border-radius: 3px;
+    height: 45px;
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    padding: 15px 25px;
 }
