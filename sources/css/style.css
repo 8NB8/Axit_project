@@ -425,3 +425,53 @@ ul li a:active{
     border-top: 1px solid white;
     border-bottom: 5px solid #ff8b38;
 }
+#reviews{
+    background-color: #fff;
+}
+#reviews .line{
+    width: 65px;
+    height: 2px;
+    background: #ff8b38;
+    display: block;
+}
+.first_row p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    color: #8e8f92;    
+}
+.second_row .col p{
+    background-color: #f5f5f5;
+    padding: 20px;
+    text-align: start;
+}
+.second_row .col h4{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 21px;
+    padding: 5px 20px;
+
+}
+.second_row .col h5{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    color: #8e8f92;    
+    font-weight: 300;
+    text-align: start;
+    padding-left: 20px;
+}
+.second_row .row{
+    display: flex;
+    align-items: center;
+}
+.second_row .col{
+    max-width: 290px;
+}
+.arrow{
+	margin-left:20px;
+	width: 0; 	
+	height: 0; 
+	border-left: 15px solid transparent;
+	border-right:15px solid transparent;	
+	border-top: 15px solid #f5f5f5;
+    color: #8e8f92;
+}
