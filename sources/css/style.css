@@ -161,7 +161,11 @@ ul li a:active{
     border: none;
     border-bottom: 2px solid #d6d6d6;
 }
-
+#hero form input:focus{
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #ff8b38;
+}
 .login a:hover{
     background-color: #000;
     transition: 500ms;
@@ -556,6 +560,24 @@ ul li a:active{
     border: none;
     border-bottom: 2px solid #d6d6d6;
 }
+#contact form input:focus{
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #ff8b38;
+}
+.message_col form textarea{
+    min-height: 180px;
+    text-align: left;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #d6d6d6;
+    resize: none;
+}
+.message_col form textarea:focus{
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #ff8b38;
+}
 .contact_btn a{
     color: #ffffff;
     background-color: #ff8b38;
@@ -568,13 +590,18 @@ ul li a:active{
     font-family: 'Raleway', sans-serif;
     padding: 15px 25px;
 }
+.contact_btn a:hover{
+    background-color: #000;
+    transition: 700ms;
+}
+
 .contact_btn {
     text-align: center;
     padding: 20px 0px 90px 0px;
 }
 #footer{
     background-color: #000;
-    /* height: 90px; */
+
 }
 footer{
     text-align: center;
