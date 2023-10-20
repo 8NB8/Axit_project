@@ -296,7 +296,7 @@ ul li a:active{
     border: solid 2px #ff8b38;
     border-radius: 50%;
 }
-.sublist_text .row{
+.sublist_text .title_item{
     display: flex;
     gap: 50px;
 }
@@ -453,7 +453,7 @@ ul li a:active{
     font-size: 14px;
     color: #8e8f92;    
 }
-#reviews .section_content .col p{
+#reviews .section_content .section_item p{
     background-color: #f5f5f5;
     padding: 20px;
     text-align: start;
@@ -461,14 +461,14 @@ ul li a:active{
     font-size: 14px;
     color: #8e8f92;  
 }
-.section_content .col h4{
+.section_content .section_item h4{
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 21px;
     padding: 5px 20px;
 
 }
-.section_content .col h5{
+.section_content .section_item h5{
     font-family: 'Raleway', sans-serif;
     font-size: 14px;
     color: #8e8f92;    
@@ -476,11 +476,11 @@ ul li a:active{
     text-align: start;
     padding-left: 20px;
 }
-.section_content .row{
+.section_content .user{
     display: flex;
     align-items: center;
 }
-.section_content .col{
+.section_content .section_item{
     max-width: 290px;
 }
 .arrow{
@@ -715,22 +715,18 @@ footer{
     #std_picture_section .std_picture .std_picture_content {
         width: 100%;
     }
-    #awesome .section_content{
+    .section_content{
         flex-direction: column;
     }
-    #awesome .section_content .col{
+    .section_content .section_item{
         max-width: 100%;
     }
-    #pricing .section_content{
-        flex-direction: column;
-    }
+
     #pricing .section_content .pricing_cards{
         width: 70%;
     }
-    #reviews .section_content{
-        flex-direction: column;
-    }
-    #reviews .section_content .col{
+
+    #reviews .section_content .section_item{
         width: 70%;
     }
     #contact .form_area{
