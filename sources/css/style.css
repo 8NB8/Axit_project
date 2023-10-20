@@ -349,6 +349,7 @@ ul li a:active{
     height: 2px;
     background: #ff8b38;
     display: block;
+    margin: 30px auto;
 }
 .section_content{
     display: flex;
@@ -384,6 +385,7 @@ ul li a:active{
     height: 2px;
     background: #ff8b38;
     display: block;
+    margin: 30px auto;
 }
 .pricing_cards{
     width: 30%;
@@ -444,6 +446,7 @@ ul li a:active{
     height: 2px;
     background: #ff8b38;
     display: block;
+    margin: 30px auto;
 }
 .section_header p{
     font-family: 'Raleway', sans-serif;
@@ -499,10 +502,13 @@ ul li a:active{
     height: 2px;
     background: #fff;
     display: block;
+    margin: 30px auto;
 }
 
 #stylish h1{
     color: #fff;
+    padding-top: 60px;
+
 }
 #stylish p{
     color: #fff;
@@ -550,6 +556,7 @@ ul li a:active{
     height: 2px;
     background: #ff8b38;
     display: block;
+    margin: 30px auto;
 }
 .form_area{
     display: grid;
